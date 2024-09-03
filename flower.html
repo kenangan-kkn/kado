@@ -7,6 +7,21 @@
     <link rel="stylesheet" href="css/main.css" />
     <link rel="icon" href="img/flowers.png" type="image/x-icon" />
     <title>flowers</title>
+    <style>
+      /* Menambahkan CSS untuk teks di atas bunga */
+      .flower-text {
+        position: absolute;
+        font-family: "Papyrus", serif;
+        font-size: 24px;
+        color: #ffffff;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        z-index: 10;
+        pointer-events: none;
+      }
+    </style>
   </head>
   <body class="container">
     <!-- Pembuat code: https://codepen.io/mdusmanansari/pen/BamepLe -->
@@ -17,6 +32,15 @@
       <source src="audio/music.mp3" type="audio/mp3" />
       Your browser does not support the audio element.
     </audio>
+
+    <!-- Tambahkan elemen teks di sini -->
+    <div class="flower-text">
+      <p>Aku akan selalu mencintaimu</p>
+      <p>Walaupun penantianku begitu lama</p>
+      <p>jika kamu bukanlah takdirku</p>
+      <p>maka cukup bagiku</p>
+      <p>bahwa dirimu pernah menjadi pilihanku</p>
+    </div>
     <div class="flowers">
       <div class="flower flower--1">
         <div class="flower__leafs flower__leafs--1">
